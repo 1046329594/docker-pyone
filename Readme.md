@@ -1,6 +1,6 @@
 # Docker-PyOne
 
-# 本项目为 TimeBye/docker-pyone 的更新版，仅保留 debian 版。
+# 本项目为 TimeBye/docker-pyone 的更新版，仅保留 debian 版，安装完成后进入 /admin 绑定网盘。
 # 原 README：
 > 👋 本项目为 [abbeyokgo/PyOne](https://github.com/abbeyokgo/PyOne) docker镜像版本。受 [thanch2n/pyone](https://hub.docker.com/r/thanch2n/pyone) 启发，借鉴其部分功能，在这里向这两个项目的作者表示感谢。
 
