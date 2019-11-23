@@ -1,4 +1,4 @@
-FROM python
+FROM python:2.7.15-jessie
 
 COPY docker-entrypoint.sh healthcheck.sh aria2c aria2.conf supervisord.conf /
 
