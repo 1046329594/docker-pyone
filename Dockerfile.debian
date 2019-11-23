@@ -1,4 +1,4 @@
-FROM python:2.7.15-jessie
+FROM python
 
 COPY docker-entrypoint.sh healthcheck.sh aria2c aria2.conf supervisord.conf /
 
@@ -12,7 +12,6 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF505
         mongodb-org \
         redis-server \
         netcat-openbsd \
-        libffi-dev \
         supervisor \
         openssh-server && \
     rm -rf /var/lib/apt/lists/* && \
